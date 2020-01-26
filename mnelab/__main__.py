@@ -4,8 +4,8 @@
 
 import sys
 import matplotlib
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtCore import Qt
+from qtpy.QtWidgets import QApplication
+from qtpy.QtCore import Qt
 
 from mnelab import MainWindow, Model
 
