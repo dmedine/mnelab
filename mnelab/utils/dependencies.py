@@ -3,11 +3,12 @@
 # License: BSD (3-clause)
 
 from importlib import import_module
+from qtpy import API_NAME
 
 
 # required packages
-required = dict(PyQt5="5.10.0",
-                numpy="1.14.0",
+required = {API_NAME: "5.10.0"}
+required.update(numpy="1.14.0",
                 scipy="1.0.0",
                 matplotlib="2.0.0",
                 mne="0.19.0")
