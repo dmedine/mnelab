@@ -45,7 +45,7 @@ setup(
                       'numpy>=1.14',
                       'scipy>=1.0',
                       'matplotlib>=2.0',
-                      'PyQt5>=5.10',
+                      'QtPy>=1.9.0',
                       'pyobjc-framework-Cocoa>=5.2;platform_system=="Darwin"'],
     extras_require={"EDF export": ["pyedflib"],
                     "PICARD": ["python-picard"],
